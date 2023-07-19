@@ -1,5 +1,5 @@
 Nesting o anidamiento. 
-Variables o mapas. 
+Variables o mapas. ( para el final, @cada seccion, luego compilar en SASS )
 Partials con o sin carpetas. 
 Extend y/ o Mixing.
 Condicionales. 
@@ -20,7 +20,7 @@ implementar bootstrap u media quieres al proyecto
 @media (min-width: 1024px) {
 
 
-----------------------Feeback 2enda entrga---------------------------------------------
+----------------------Feedback 2enda entrga---------------------------------------------
 
 Que tal walter como estas?
 
@@ -28,10 +28,13 @@ Gracias por tu entrega! estas haciendo un gran trabajo, hay que ajustar algunas 
 
 Veo que en el home se te rompe la seccion de autor, fijate que es por que pusiste un margin left de 600px.
 En el index, casi todas las vinculaciones de imagenes, tiene un error en la sintaxis, las colocaste con "../"
- y deberia ir con un solo punto, ya que estan en un carpeta que le sigue al index, que esta despues. Por eso va "./" y si esta en diferentes carpetas si iria "../"
+ y deberia ir con un solo punto, ya que estan en un carpeta que le sigue al index, que esta despues. Por eso va "./" y 
+ si esta en diferentes carpetas si iria "../"
 Veo que a lo largo del css has estado mezclando alguns propiedades de grid con flex, ojo con esto, por ej, en un container, 
 el de titulo, colocaste display flex, y le das un grid gap, acordate que solo se utilizan en el padre cuando tiene grid.
-Has utilizado mucho grid en elementos o container donde no lo necesitarias en realidad, intenta resumirlo lo más posible, posicionando todo con flex. Asi no tenes problemas de margenes o alineaciones, que con grid suele pasar.
+Has utilizado mucho grid en elementos o container donde no lo necesitarias en realidad, 
+intenta resumirlo lo más posible, posicionando todo con flex.
+ Asi no tenes problemas de margenes o alineaciones, que con grid suele pasar.
 En el css y los html, has organizado y nombrado muy bien el codigo, te felicito por ello.
 Los mediaqueries recorda que van en lo posible como buena practica, a lo ultimo del css, por su lectura en cascada!
 Has hecho uso de boostrap, muy bien. No abusemos de sus herramientas. Hasta ahora veo que esta balanceado, deberias centrar algunos botones en las cards, y mejorar tamaños.
